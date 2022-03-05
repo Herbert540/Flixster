@@ -15,11 +15,34 @@ The following **optional** features are implemented:
 * [ ] Improved the user interface by experimenting with styling and coloring.
 * [ ] For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
-## Video Walkthrough
+### Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthrough.gif' title='Video Walkthrough Part 1' width='' alt='Video Walkthrough' />
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+# Project 2 - *Flixster - Part 2*
+
+### User Stories
+The following **required** functionality is completed:
+* [x] Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
+* [x] Allow video posts to be played in full-screen using the YouTubePlayerView.
+
+The following **optional** features are implemented:
+* [ ] Implement a shared element transition when user clicks into the details of a movie 
+* [ ] Trailers for popular movies are played automatically when the movie is selected
+* [ ] When clicking on a popular movie (i.e. a movie voted for more than 5 stars) the video should be played immediately.
+* [ ] Less popular videos rely on the detailed page should show an image preview that can initiate playing a YouTube video.
+* [ ] Add a play icon overlay to popular movies to indicate that the movie can be played
+* [ ] Apply data binding for views to help remove boilerplate code
+* [ ] Add a rounded corners for the images using the Glide transformations
+
+### Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='walkthrough2.gif' title='Video Walkthrough Part 2' width='' alt='Video Walkthrough' />
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ### Open-source libraries used
